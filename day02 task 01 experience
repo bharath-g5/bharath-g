@@ -1,0 +1,33 @@
+namespace Employee_details_1_
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+
+      Console.WriteLine("Enter Your Name");
+			string name = Console.ReadLine();
+			Console.WriteLine("Enter Your emailId");
+			string emailId = Console.ReadLine();
+			Console.WriteLine("Enter Your empId");
+			int empId = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Enter Your mobileNumber");
+			long mobileNumber = Convert.ToInt64(Console.ReadLine());
+			Console.WriteLine("Enter Your dob");
+			DateTime dob = Convert.ToDateTime(Console.ReadLine());
+			Console.WriteLine("Enter Your dateofjoining");
+			DateTime dateofjoining = Convert.ToDateTime(Console.ReadLine());
+			Console.WriteLine("Enter Your salary");
+			int salary = Convert.ToInt32(Console.ReadLine());
+
+			DateTime today = DateTime.Now;
+			int Experience = today.Year - dateofjoining.Year;
+
+      Console.WriteLine("Employee Details Are:");
+			Console.WriteLine("NAME:" + name);
+			Console.WriteLine("Experience:" +Experience);
+
+			Console.WriteLine("ANNUAL SALARY:" + salary * 12);
+		}
+	}
+}

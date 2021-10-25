@@ -1,0 +1,29 @@
+using System;
+
+namespace demotask1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = Console.ReadLine();
+            Console.WriteLine(" the name is " + name);
+            string email = Console.ReadLine();
+            Console.WriteLine(" the email is " + email);
+            string number = Console.ReadLine();
+            Console.WriteLine(" the number is " + number);
+            string dob = Console.ReadLine();
+            Console.WriteLine(" the dob is " + dob);
+            string address = Console.ReadLine();
+            Console.WriteLine(" the address is " + address);
+            string workcompany = Console.ReadLine();
+            Console.WriteLine(" the working company is " + workcompany);
+            string doj = Console.ReadLine();
+            Console.WriteLine(" the date of join is " + doj);
+            string salary = Console.ReadLine();
+            Console.WriteLine(" the salary of employee is " + salary);
+            Console.ReadKey();
+
+        }
+    }
+}
